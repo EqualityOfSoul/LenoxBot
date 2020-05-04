@@ -30,7 +30,7 @@
     "fortnite": "^3.0.0",
     "fs": "^0.0.1-security",
     "fs-nextra": "^0.3.5",
-    "got": "^7.1.0",
+    "got": "^11.1.0",
     "handlebars-helpers": "^0.10.0",
     "http": "^0.0.0",
     "lint": "^1.1.2",
