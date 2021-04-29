@@ -1,0 +1,34 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: mocha
+    versions:
+    - 8.2.1
+    - 8.3.0
+    - 8.3.1
+  - dependency-name: pm2
+    versions:
+    - 4.5.1
+    - 4.5.4
+    - 4.5.5
+  - dependency-name: express-handlebars
+    versions:
+    - 5.2.0
+    - 5.2.1
+  - dependency-name: ytdl-core
+    versions:
+    - 4.4.5
+  - dependency-name: got
+    versions:
+    - 11.8.1
+  - dependency-name: chalk
+    versions:
+    - 4.1.0
+  - dependency-name: opusscript
+    versions:
+    - 0.0.7
